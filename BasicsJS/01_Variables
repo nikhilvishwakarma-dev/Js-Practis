@@ -1,0 +1,17 @@
+const accountId=12125256;
+let accountName="Nikhil"
+var accountEmail="nikhil@gmail.com";   // ye abhi global variable hai but iska scope function ke andar tak limited hai aur ab ye use nhi khota hai
+accountPassword="Nikhil123"
+
+console.log(accountId)
+console.table([accountId, accountName, accountEmail, accountPassword]);
+// accountId=12125257;
+// console.log(accountId)
+
+accountName="Nikhil Kumar"
+console.log(accountName)
+
+accountEmail="nikhil.kumar@gmail.com"
+console.log(accountEmail)
+accountPassword="Nikhil1234"
+console.log(accountPassword)
