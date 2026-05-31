@@ -10,7 +10,7 @@ console.log(typeof myDate);
 
 var myCreateDate=new Date(2026,0,23)
 console.log(myCreateDate.toDateString());
-
+  
 
 var myCreateDate=new Date("January 23, 2026")
 console.log(myCreateDate.toLocaleString());
